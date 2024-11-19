@@ -1,0 +1,14 @@
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\bin\Debug\net8.0\Project.Domain.deps.json
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\bin\Debug\net8.0\Project.Domain.runtimeconfig.json
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\bin\Debug\net8.0\Project.Domain.dll
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\bin\Debug\net8.0\Project.Domain.pdb
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.csproj.AssemblyReference.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.AssemblyInfoInputs.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.AssemblyInfo.cs
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.csproj.CoreCompileInputs.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.dll
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\refint\Project.Domain.dll
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.pdb
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\Project.Domain.genruntimeconfig.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Domain\obj\Debug\net8.0\ref\Project.Domain.dll

@@ -1,0 +1,733 @@
+[
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarreraController",
+    "Method": "ActualizarCarrera",
+    "RelativePath": "api/Carrera/ActualizarCarrera",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carrera",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Carrera.UpdateCarreraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarreraController",
+    "Method": "EliminarCarrera",
+    "RelativePath": "api/Carrera/EliminarCarrera",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarreraController",
+    "Method": "CrearCarrera",
+    "RelativePath": "api/Carrera/GuardarCarrera",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carrera",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Carrera.CreateCarreraDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarreraController",
+    "Method": "ObtenerCarreraPorId",
+    "RelativePath": "api/Carrera/ObtenerCarreraPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CarreraController",
+    "Method": "ObtenerCarreras",
+    "RelativePath": "api/Carrera/ObtenerCarreras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CategoriaDocumentoController",
+    "Method": "ActualizarCategoriaDocumento",
+    "RelativePath": "api/CategoriaDocumento/ActualizarCategoriaDocumento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDocumento",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.CategoriaDocumento.UpdateCategoriaDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CategoriaDocumentoController",
+    "Method": "EliminarCategoriaDocumento",
+    "RelativePath": "api/CategoriaDocumento/EliminarCategoriaDocumento",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CategoriaDocumentoController",
+    "Method": "CrearCategoriaDocumento",
+    "RelativePath": "api/CategoriaDocumento/GuardarCategoriaDocumento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDocumento",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.CategoriaDocumento.CreateCategoriaDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CategoriaDocumentoController",
+    "Method": "ObtenerCategoriaDocumentoPorId",
+    "RelativePath": "api/CategoriaDocumento/ObtenerCategoriaDocumentoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.CategoriaDocumentoController",
+    "Method": "ObtenerCategoriaDocumentos",
+    "RelativePath": "api/CategoriaDocumento/ObtenerCategoriaDocumentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "EliminarDocumento",
+    "RelativePath": "api/Documento/EliminarDocumento",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "EnviarEmailATodosAsync",
+    "RelativePath": "api/Documento/EnviarEmailATodos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "EnviarEmailIndividualAsync",
+    "RelativePath": "api/Documento/EnviarEmailIndividual",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "ObtenerDocumentoPorId",
+    "RelativePath": "api/Documento/ObtenerDocumentoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "ObtenerDocumentos",
+    "RelativePath": "api/Documento/ObtenerDocumentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "ObtenerDocumentosPorEstudiante",
+    "RelativePath": "api/Documento/ObtenerDocumentosPorEstudiante",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstudiante",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "ObtenerDocumentosPorGestion",
+    "RelativePath": "api/Documento/ObtenerDocumentosPorGestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idGestion",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "ObtenerSeguimientoEstudiantes",
+    "RelativePath": "api/Documento/SeguimientoEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "SubirDocumento",
+    "RelativePath": "api/Documento/SubirDocumento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEstudiante",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdGestion",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdTipoDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "documento",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "legalizado",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.DocumentoController",
+    "Method": "VerificarDocumentoExistente",
+    "RelativePath": "api/Documento/VerificarDocumentoExistente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Documento.VerificarDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "ActualizarEstudiante",
+    "RelativePath": "api/Estudiante/ActualizarEstudiante",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudiante",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Estudiante.UpdateEstudianteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "EliminarEstudiante",
+    "RelativePath": "api/Estudiante/EliminarEstudiante",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "CrearEstudiante",
+    "RelativePath": "api/Estudiante/GuardarEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudiante",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Estudiante.CreateEstudianteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "ObtenerDocumentosFaltantesPorCategoriaDeEstudiantes",
+    "RelativePath": "api/Estudiante/ObtenerDocumentosFaltantesPorCategoriaDeEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "ObtenerDocumentosFaltantesYPresentadosPorCategoriaDeEstudiantes",
+    "RelativePath": "api/Estudiante/ObtenerDocumentosFaltantesYPresentadosPorCategoriaDeEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "ObtenerDocumentosPresentadosPorCategoriaDeEstudiantes",
+    "RelativePath": "api/Estudiante/ObtenerDocumentosPresentadosPorCategoriaDeEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "ObtenerEstudiantePorId",
+    "RelativePath": "api/Estudiante/ObtenerEstudiantePorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.EstudianteController",
+    "Method": "ObtenerEstudiantes",
+    "RelativePath": "api/Estudiante/ObtenerEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.FacultadController",
+    "Method": "ActualizarFacultad",
+    "RelativePath": "api/Facultad/ActualizarFacultad",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facultad",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Facultad.UpdateFacultadDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.FacultadController",
+    "Method": "EliminarFacultad",
+    "RelativePath": "api/Facultad/EliminarFacultad",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.FacultadController",
+    "Method": "CrearFacultad",
+    "RelativePath": "api/Facultad/GuardarFacultad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facultad",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Facultad.CreateFacultadDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.FacultadController",
+    "Method": "ObtenerFacultades",
+    "RelativePath": "api/Facultad/ObtenerFacultades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.FacultadController",
+    "Method": "ObtenerFacultadPorId",
+    "RelativePath": "api/Facultad/ObtenerFacultadPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.GestionController",
+    "Method": "ActualizarGestion",
+    "RelativePath": "api/Gestion/ActualizarGestion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gestion",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Gestion.UpdateGestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.GestionController",
+    "Method": "EliminarGestion",
+    "RelativePath": "api/Gestion/EliminarGestion",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.GestionController",
+    "Method": "CrearGestion",
+    "RelativePath": "api/Gestion/GaurdarGestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gestion",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Gestion.CreateGestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.GestionController",
+    "Method": "ObtenerGestiones",
+    "RelativePath": "api/Gestion/ObtenerGestiones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.GestionController",
+    "Method": "ObtenerGestionPorId",
+    "RelativePath": "api/Gestion/ObtenerGestionPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TipoDocumentoController",
+    "Method": "ActualizarTipoDocumento",
+    "RelativePath": "api/TipoDocumento/ActualizarTipoDocumento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoDocumento",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.TipoDocumento.UpdateTipoDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TipoDocumentoController",
+    "Method": "EliminarTipoDocumento",
+    "RelativePath": "api/TipoDocumento/EliminarTipoDocumento",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TipoDocumentoController",
+    "Method": "CrearTipoDocumento",
+    "RelativePath": "api/TipoDocumento/GuardarTipoDocumento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoDocumento",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.TipoDocumento.CreateTipoDocumentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TipoDocumentoController",
+    "Method": "ObtenerTipoDocumentoPorId",
+    "RelativePath": "api/TipoDocumento/ObtenerTipoDocumentoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.TipoDocumentoController",
+    "Method": "ObtenerTipoDocumentos",
+    "RelativePath": "api/TipoDocumento/ObtenerTipoDocumentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/Usuarios/ActualizarUsuario",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Usuario.UpdateUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Usuarios/CrearUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Project.Application.DTOs.Infraestructure.Persistence.Usuario.CreateUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/Usuarios/EliminarUsuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "LogIn",
+    "RelativePath": "api/Usuarios/LogIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Project.Application.DTOs.Infraestructure.Identity.Authentication.AuthenticationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "ObtenerUsuarioPorId",
+    "RelativePath": "api/Usuarios/ObtenerUsuarioPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.WebApi.Controllers.UsuariosController",
+    "Method": "ObtenerUsuarios",
+    "RelativePath": "api/Usuarios/ObtenerUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
