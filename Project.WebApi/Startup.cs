@@ -57,6 +57,8 @@ namespace Project.WebApi
         app.UseSwagger();
         app.UseSwaggerUI();
       }
+      app.UseSwagger();
+      app.UseSwaggerUI();
 
       app.UseEndpoints(endpoints =>
       {

@@ -1,0 +1,14 @@
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\bin\Release\net8.0\Project.Application.deps.json
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\bin\Release\net8.0\Project.Application.runtimeconfig.json
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\bin\Release\net8.0\Project.Application.dll
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\bin\Release\net8.0\Project.Application.pdb
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.csproj.AssemblyReference.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.AssemblyInfoInputs.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.AssemblyInfo.cs
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.csproj.CoreCompileInputs.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.dll
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\refint\Project.Application.dll
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.pdb
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\Project.Application.genruntimeconfig.cache
+D:\Ingenieria de Sistemas\Proyectos\Apoyo Examen de Grado\System\DocumentalManagement\Project.Application\obj\Release\net8.0\ref\Project.Application.dll

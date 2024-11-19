@@ -26,6 +26,7 @@
     <ProjectReference Include="..\Project.Application\Project.Application.csproj" />
     <ProjectReference Include="..\Project.Domain\Project.Domain.csproj" />
     <ProjectReference Include="..\Project.Identity\Project.Identity.csproj" />
+    <ProjectReference Include="..\Project.Persistence\Project.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
