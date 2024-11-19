@@ -4489,6 +4489,7 @@
       "Project.Application >= 1.0.0",
       "Project.Domain >= 1.0.0",
       "Project.Identity >= 1.0.0",
+      "Project.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 7.0.0"
     ]
   },
@@ -4528,6 +4529,9 @@
             },
             "D:\\Ingenieria de Sistemas\\Proyectos\\Apoyo Examen de Grado\\System\\DocumentalManagement\\Project.Identity\\Project.Identity.csproj": {
               "projectPath": "D:\\Ingenieria de Sistemas\\Proyectos\\Apoyo Examen de Grado\\System\\DocumentalManagement\\Project.Identity\\Project.Identity.csproj"
+            },
+            "D:\\Ingenieria de Sistemas\\Proyectos\\Apoyo Examen de Grado\\System\\DocumentalManagement\\Project.Persistence\\Project.Persistence.csproj": {
+              "projectPath": "D:\\Ingenieria de Sistemas\\Proyectos\\Apoyo Examen de Grado\\System\\DocumentalManagement\\Project.Persistence\\Project.Persistence.csproj"
             }
           }
         }
