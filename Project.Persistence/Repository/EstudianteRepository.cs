@@ -31,7 +31,6 @@ namespace Project.Persistence.Repository
       estudianteEntity.Apellido = estudiante.Apellido;
       estudianteEntity.NroRegistro = estudiante.NroRegistro;
       estudianteEntity.FechaNacimiento = estudiante.FechaNacimiento;
-      estudianteEntity.Estado = estudiante.Estado;
       estudianteEntity.Telefono = estudiante.Telefono;
       estudianteEntity.Email = estudiante.Email;
       _context.Estudiantes.Update(estudianteEntity);
@@ -279,11 +278,14 @@ namespace Project.Persistence.Repository
 
     public async Task<List<ReadEstudianteDTO>> ObtenerEstudiantes()
     {
-      List<Estudiante> estudiantes = await _context.Estudiantes.ToListAsync();
+      List<Estudiante> estudiantes = await _context.Estudiantes
+        .Include(x => x.Carrera)
+        .ToListAsync();
       return estudiantes.Select(x => new ReadEstudianteDTO
       {
         Id = x.Id,
         IdCarrera = x.IdCarrera,
+        Carrera = x.Carrera.Nombre,
         Nombre = x.Nombre,
         Apellido = x.Apellido,
         NroRegistro = x.NroRegistro,

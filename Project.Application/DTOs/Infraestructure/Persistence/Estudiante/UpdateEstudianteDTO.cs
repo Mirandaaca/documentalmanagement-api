@@ -14,7 +14,6 @@ namespace Project.Application.DTOs.Infraestructure.Persistence.Estudiante
     public string Apellido { get; set; }
     public string NroRegistro { get; set; }
     public DateTime FechaNacimiento { get; set; }
-    public string Estado { get; set; } //Admision, Habilitacion, Egresado
     public string Telefono { get; set; }
     public string Email { get; set; }
   }

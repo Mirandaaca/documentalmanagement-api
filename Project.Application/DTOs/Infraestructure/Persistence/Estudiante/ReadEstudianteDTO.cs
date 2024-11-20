@@ -10,6 +10,7 @@ namespace Project.Application.DTOs.Infraestructure.Persistence.Estudiante
   {
     public int Id { get; set; }
     public int IdCarrera { get; set; }
+    public string Carrera { get; set; }
     public string Nombre { get; set; }
     public string Apellido { get; set; }
     public string NroRegistro { get; set; }
