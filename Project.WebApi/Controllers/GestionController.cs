@@ -14,7 +14,7 @@ namespace Project.WebApi.Controllers
     {
       _gestionRepository = gestionRepository;
     }
-    [HttpPost("GaurdarGestion")]
+    [HttpPost("GuardarGestion")]
     public async Task<IActionResult> CrearGestion([FromBody] CreateGestionDTO gestion)
     {
       await _gestionRepository.GuardarGestion(gestion);
